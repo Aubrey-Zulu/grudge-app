@@ -8,6 +8,10 @@ const Application = () => {
   return (
     <div className="Application">
       <NewGrudge />
+      <section>
+        <button>undo</button>
+        <button>redo</button>
+      </section>
       <Grudges />
     </div>
   );
